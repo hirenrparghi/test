@@ -9,7 +9,7 @@ resource "aws_instance" "ec2-1" {
     instance_type = "t2.micro"
  
 tags = {
-  "Name" = "Latest-machine"
+  "Name" = "Latest_machine"
 }
  
 }
